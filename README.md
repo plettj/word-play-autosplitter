@@ -10,7 +10,7 @@ This is a bare-bones [LiveSplit](https://livesplit.org/)-compatible autosplitter
 
 1. Open LiveSplit, and open the [layout](livesplit/Layouts/layout_wordplay_easy.lsl) and [split](livesplit/Splits/splits_wordplay_easy.lss) files found in `livesplit/`.
 2. Also in Livesplit, select `Control` -> `Start TCP Server`.
-3. Open [wordplay_autosplitter.exe](dist/wordplay_autosplitter.exe) (or run the python file).
+3. Open [dist/wordplay_autosplitter.exe](dist/wordplay_autosplitter.exe) and follow the prompts.
 4. Start playing!
 
 ### Development
@@ -21,7 +21,7 @@ To make changes to the autosplitter, simply edit [wordplay_autosplitter.py](word
 pyinstaller --onefile --name wordplay_autosplitter wordplay_autosplitter.py
 ```
 
-### Licenses
+### License
 
 1. Please use, modify, and distribute freely!
 2. When applicable, crediting the [author](https://github.com/plettj) is appreciated.
